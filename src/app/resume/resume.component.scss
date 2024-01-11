@@ -1,0 +1,185 @@
+.resume-section {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(230, 218, 206);
+    padding-bottom: 30px;
+
+    .resume-head {
+        display: flex;
+        justify-content: center;
+        padding: 100px 0px;
+    }
+
+    .logo {
+        margin: 25px 10px;
+        padding: 12px;
+        width: 15px;
+        height: 15px;
+        background-color: rgba(0, 80, 255);
+    }
+
+    .brand {
+        color: black;
+        font-weight: bolder;
+        font-size: 44px;
+    }
+
+    .experincehead {
+        display: flex;
+        justify-content: center;
+    }
+
+    .experince {
+        margin: 0px 180px;
+
+        p {
+            font-size: 25px;
+            font-weight: 800;
+        }
+    }
+
+    .download {
+        margin: 13px 180px;
+
+        a {
+            text-decoration: none;
+            border: 1px solid rgba(0, 80, 255);
+            border-radius: 18px;
+            padding: 5px 15px;
+            background: rgba(0, 80, 255);
+            color: white;
+        }
+
+        a:hover {
+            background: rgb(230, 218, 206);
+            color: black;
+            transition: 0.3s ease-in-out;
+        }
+    }
+
+    .company {
+        width: 700px;
+        height: 560px;
+        background: white;
+        margin: 60px auto;
+        box-shadow: -5px 5px 10px 0px #888888;
+        // position: relative;
+        // width: 60%;
+        // height: 510px;
+        // background-color: rgb(244, 236, 230);
+        // // top: 160px;
+        // // left: 300px;
+        // // text-align: center;
+
+    }
+
+    .companydetail {
+        display: flex;
+
+        .month {
+            margin-left: 20px;
+            text-align: center;
+            margin-top: 60px;
+
+            .date {
+                font-size: 20px;
+                font-weight: 800;
+                color: rgba(0, 80, 255);
+            }
+        }
+
+        .work {
+            width: 300px;
+            margin-left: 120px;
+            margin-top: 105px;
+
+            .project {
+                font-weight: 800;
+                margin-left: 33px;
+            }
+        }
+    }
+
+    .education {
+        text-align: center;
+        margin: 0px 525px 40px 0px;
+
+        p {
+            font-size: 25px;
+            font-weight: 800;
+        }
+    }
+
+    .languages {
+        padding: 65px 0px 50px 30px;
+
+        h5 {
+            font-weight: 800;
+            font-size: 25px;
+        }
+
+        .left-section {
+            display: flex;
+            margin: 20px 0px;
+
+            .logo {
+                padding: 3px;
+                margin: 4px;
+            }
+
+            p {
+                width: 150px;
+            }
+        }
+
+        .rigth-section {
+            display: flex;
+
+            .logo {
+                padding: 5px;
+                margin: 4px;
+            }
+
+            p {
+                width: 150px;
+            }
+        }
+    }
+}
+
+@media(max-width: 895px) {
+    .resume-section {
+        .experince {
+            margin: 0px 35px;
+        }
+
+        .download {
+            margin: 13px 5px;
+        }
+
+        .companydetail {
+            display: inline-block;
+
+            .month {
+                margin-left: 0px;
+                margin-top: 35px;
+            }
+
+            .work {
+                margin-left: 10px;
+                margin-top: 35px;
+            }
+        }
+
+        .company {
+            width: 320px;
+        }
+
+        .education {
+            margin: auto;
+        }
+
+
+
+    }
+}
